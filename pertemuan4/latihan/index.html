@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT. Konstruksi Jaya Utama - Membangun Negeri</title>
+    <style>
+        /* 1. Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f1d02c;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        /* 2. Typography */
+        h1 {
+            color: #004a99;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            color: #004a99;
+            border-left: 5px solid #ffcc00;
+            padding-left: 15px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: #444;
+        }
+
+        /* 3. Images */
+        .banner-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .service-img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 12px;
+        }
+
+        
+
+        /* 4. Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table th {
+            background-color: #004a99;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        table td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* 5. Form Styles */
+        form {
+            background: #f0f4f8;
+            padding: 25px;
+            border-radius: 8px;
+        }
+
+        input[type="text"], 
+        input[type="number"], 
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Penting agar padding tidak merusak lebar */
+        }
+
+        button[type="submit"] {
+            background-color: #004a99;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #003366;
+        }
+
+        /* 6. Footer */
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 40px 0;
+        }
+
+        .footer-text {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <h1>PT. KONSTRUKSI JAYA UTAMA</h1>
+        <img src="https://picsum.photos/id/1071/1200/400" alt="Banner Perusahaan" class="banner-img">
+        <p style="text-align: center; font-size: 1.1em; color: #555;">
+            Solusi Terpercaya untuk Pembangunan Gedung, Jembatan, dan Infrastruktur Jalan.
+        </p>
+        
+        <hr>
+
+        <!-- Services Section -->
+        <h2>Layanan Unggulan Kami</h2>
+        <table border="0">
+            <tr>
+                <td width="50%" style="vertical-align: top; border-bottom: none;">
+                    <h3>1. Perencanaan Arsitektur</h3>
+                    <p>Kami merancang gedung impian Anda dengan efisiensi biaya dan estetika tinggi.</p>
+                    <img src="https://picsum.photos/id/3/300/200" alt="Arsitektur" class="service-img">
+                </td>
+                <td width="50%" style="vertical-align: top; border-bottom: none;">
+                    <h3>2. Manajemen Proyek</h3>
+                    <p>Pengawasan ketat untuk memastikan proyek selesai tepat waktu dan sesuai standar keamanan.</p>
+                    <img src="https://picsum.photos/id/2/300/200" alt="Manajemen Proyek" class="service-img">
+                </td>
+            </tr>
+        </table>
+
+        <!-- Projects Section -->
+        <h2>Proyek Terbaru</h2>
+        <p>Berikut adalah beberapa proyek yang berhasil kami selesaikan:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama Proyek</th>
+                    <th>Lokasi</th>
+                    <th>Tahun Selesai</th>
+                    <th>Foto Proyek</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Apartemen SkyView</td>
+                    <td>Jakarta Selatan</td>
+                    <td>2023</td>
+                    <td><img src="https://picsum.photos/id/122/80/60" alt="SkyView" style="border-radius: 4px;"></td>
+                </tr>
+                <tr>
+                    <td>Jembatan Mahakam II</td>
+                    <td>Samarinda</td>
+                    <td>2022</td>
+                    <td><img src="https://picsum.photos/id/124/80/60" alt="Jembatan" style="border-radius: 4px;"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <h2>Hubungi Departemen Pemasaran</h2>
+        <form action="#">
+            <label for="company">Nama Perusahaan:</label>
+            <input type="text" id="company" name="company" placeholder="Masukkan nama perusahaan Anda">
+
+            <label for="type">Jenis Proyek:</label>
+            <select id="type" name="type">
+                <option value="residensial">Residensial</option>
+                <option value="komersial">Komersial</option>
+                <option value="infrastruktur">Infrastruktur</option>
+            </select>
+
+            <label for="budget">Estimasi Anggaran (Rp):</label>
+            <input type="number" id="budget" name="budget" placeholder="Contoh: 500000000">
+
+            <button type="submit">Ajukan Penawaran Sekarang</button>
+        </form>
+
+        <hr>
+        <p align="center" class="footer-text"><i>Kantor Pusat: Menara Konstruksi, Lt. 10, Surabaya.</i></p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- Internal CSS-->
+    <style>
+        /* Selector Tag HTML */
+        body {
+            background-color: yellow;
+            border-top-style: solid;
+            border-top-width: 5px;
+            border-top-color: brown;
+            border-radius: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2 {
+            font-size: 12pt;
+            text-decoration: underline;
+            text-align: right;
+        }
+        div {
+            border-radius:8px;
+            border: 3px dotted green ;
+            margin: 20px 10px 5px 10px;
+            padding: 50px;
+        }
+        /* Selector Class */ 
+        .border-merah {
+            border-color: red !important;
+        }
+        .border-biru {
+            border-color: blue;
+        }
+        .border-solid{
+            border-style: solid;
+            border-width: 5px;
+        }
+    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/gaya2.css">
+    <link rel="stylesheet" href="css/gayaku.css">
+</head>
+<body>
+    <h1 style="color: #e109a4; background-color: coral;">Mengenal CSS Inline</h1>
+    <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Ini Text Berwana Merah</h1>
+    <h2>Mengenal Selector Pada CSS</h2>
+    <div class="border-merah">
+        Hallo, apa kabar mahasiswa kelas IF2B
+    </div>
+    <div class="border-merah border-biru border-solid">
+        Menggunakan selector class
+    </div>
+    <div>
+        Menggunakan selector class lainnya ....
+    </div>
+</body>
+</html>
